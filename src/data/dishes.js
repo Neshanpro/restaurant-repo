@@ -6,44 +6,8 @@ const Dishes = [
         category: 'Meal',
         label: 'Hot',
         price: '199',
+        featured: true,
         description: 'The restaurant is called Sanji no Oresama Restaurant, and has more variety of dishes for dinner and a buffet for lunch time.',
-        comments: [
-            {
-                id: 0,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Chopper",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 1,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Brook",
-                date: "2019-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 3,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Usoop",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 4,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Luffy",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 5,
-                rating: 4,
-                comment: "Not that good",
-                author: "Zoro",
-                date: "2020-10-16T17:57:28.556094Z"
-            }
-        ]
     },
     {
         id: 1,
@@ -52,37 +16,8 @@ const Dishes = [
         category: 'Meal',
         label: 'Hot',
         price: '199',
+        featured: false,
         description: 'The restaurant is called Sanji no Oresama Restaurant, and has more variety of dishes for dinner and a buffet for lunch time.',
-        comments: [
-            {
-                id: 0,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Chopper",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 1,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Brook",
-                date: "2019-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 3,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Usoop",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 4,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Luffy",
-                date: "2020-10-16T17:57:28.556094Z"
-            }
-        ]
     },
     {
         id: 2,
@@ -91,37 +26,8 @@ const Dishes = [
         category: 'Meal',
         label: 'Hot',
         price: '199',
+        featured: false,
         description: 'The restaurant is called Sanji no Oresama Restaurant, and has more variety of dishes for dinner and a buffet for lunch time.',
-        comments: [
-            {
-                id: 0,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Chopper",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 1,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Brook",
-                date: "2019-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 3,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Usoop",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 4,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Luffy",
-                date: "2020-10-16T17:57:28.556094Z"
-            }
-        ]
     },
     {
         id: 3,
@@ -130,37 +36,8 @@ const Dishes = [
         category: 'Meal',
         label: 'Hot',
         price: '199',
+        featured: true,
         description: 'The restaurant is called Sanji no Oresama Restaurant, and has more variety of dishes for dinner and a buffet for lunch time.',
-        comments: [
-            {
-                id: 0,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Chopper",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 1,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Brook",
-                date: "2019-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 3,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Usoop",
-                date: "2020-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 4,
-                rating: 5,
-                comment: "Delicious!",
-                author: "Luffy",
-                date: "2020-10-16T17:57:28.556094Z"
-            }
-        ]
     },
 ]
 
