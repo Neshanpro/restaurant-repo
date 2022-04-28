@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import { Button, Input, Form } from 'reactstrap';
 
 class CommentForm extends Component {

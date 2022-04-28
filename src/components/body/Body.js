@@ -1,19 +1,20 @@
+import React from 'react';
 import Menu from './Menu';
 import Home from './Home';
 import Contact from './Contact';
 import About from './About'
-import { Route, Redirect, Switch } from 'react-router-dom';
+import { Route, Navigate, Routes } from 'react-router-dom';
 
 const Body = () => {
     return (
         <div>
-            <Switch>
-                <Route path="/home" exact component={Home} />
-                <Route path="/menu" exact component={Menu} />
-                <Route path="/contact" exact component={Contact} />
-                <Route path="/about" exact component={About} />
-                <Redirect from="/" to="/home" />
-            </Switch>
+            <Routes>
+                <Route path="home" element={<Home />} />
+                <Route path="menu" element={<Menu />} />
+                <Route path="contact" element={<Contact />} />
+                <Route path="about" element={<About />} />
+                <Route path="/" element={<Navigate replace to="/home" />} />
+            </Routes>
         </div>
     );
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import dateFormat from 'dateformat';
 
 const LoadComments = props => {

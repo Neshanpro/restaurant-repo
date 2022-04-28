@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, Col } from 'reactstrap';
 class Contact extends Component {
     constructor(props) {
